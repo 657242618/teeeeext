@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+.clearfix:after{
+  content:"";
+  display:block;
+  overflow:hidden;
+  height:0;
+  clear:both;
+  zoom:1;
+}
+
+.box{
+border:1px solid black;
+overflow:auto;
+}
+
+.left{
+
+float:left;
+width:100px;
+height:200px;
+border:1px solid red;
+}
+
+.right{
+
+float:right;
+width:100px;
+height:400px;
+border:1px solid red;
+}
+.center{
+margin-left:120px;
+margin-right:120px;
+border:1px solid black;
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="box">
+<div class="right">div3</div>
+
+
+<div class="left">div1</div>
+
+<div class="center">div2</div>
+
+</div>
+
+
+
+</body>
+</html>
